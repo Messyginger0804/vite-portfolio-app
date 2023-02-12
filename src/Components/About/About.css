@@ -1,0 +1,156 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+}
+
+.about_me {
+    /* width: 90%; */
+    /* margin-left: 2rem; */
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
+}
+
+.about_me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
+
+.about_me-image:hover {
+    transform: rotate(0deg);
+    transition: 2000ms;
+}
+
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-left: -9rem;
+}
+
+.about_card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transistion);
+}
+
+.about_card:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: pointer;
+}
+
+.about_icons {
+    color: var(--color-primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about_card h5 {
+    font-size: 0.99;
+}
+
+.about_card small {
+    font-size: 1.1rem;
+    color: var(--color-light)
+}
+
+.about_content p {
+    margin: 2rem -5rem 2.6rem -9rem;
+    color: var(--color-light);
+}
+
+/* ----------media queries---------- */
+/* tablets */
+
+@media screen and (max-width: 1024px) {
+    .about_me-image {
+        width: 330px;
+        transition: none;
+        transform: none;
+    }
+
+    .about_content p {
+        margin: 3rem -3.9rem 2.6rem -27rem;
+        color: var(--color-light);
+        font-size: 1.9rem;
+
+    }
+
+    .about_me {
+        background: none;
+
+    }
+
+    .about_cards {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-left: -6.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .about_card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+
+}
+
+/* ---------phones---------- */
+
+@media screen and (max-width: 600px) {
+    .about_me-image {
+        display: none;
+    }
+
+    .about_conatiner {
+        width: var(--container-width-sm);
+    }
+
+    .about_cards {
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+        margin-left: -12.1rem;
+    }
+
+    .head {
+        margin-left: 6rem;
+    }
+
+    .about_content p {
+        margin: 3rem -3rem 2.2rem -12rem;
+        color: var(--color-light);
+        font-size: 1.5rem;
+    }
+
+    /* .about_me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+    .about_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+
+    .about_content p {
+        margin: 1.5rem 0;
+    } */
+
+
+}
