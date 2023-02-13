@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import './App.css';
+// import './App.css';
 import About from './Components/About/About';
 import Experience from './Components/Experience/Experience';
 import Contacts from './Components/Contacts/Contact';
