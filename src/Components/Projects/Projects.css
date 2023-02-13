@@ -1,15 +1,25 @@
 .portfolio_container {
     display: grid;
-    padding-left: 22rem;
+    /*padding-left: 22rem;
     padding-right: 22rem;
+    grid-template-columns: 30% 30% 30%;*/
+    /*gap: 10%;*/
     grid-template-columns: 30% 30% 30%;
-    gap: 10%;
+    gap: 2.5rem;
 }
 
-.portfolio_items {
+/* .portfolio_items {
     background: var(--color-bg-variant);
     margin: -2rem -2rem -2rem -2rem;
     width: 25rem;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+} */
+.portfolio_items,
+.portfolio_item {
+    background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -37,7 +47,7 @@
 }
 
 /* ----------media queries---------- */
-/* tablets
+/* tablets */
 
 @media screen and (max-width: 1024px) {
     .portfolio_conatiner {
@@ -48,9 +58,9 @@
 
     /* ---------phones---------- */
 
-/* @media screen and (max-width: 600px) {
+    @media screen and (max-width: 600px) {
         .portfolio_conatiner {
             grid-template-columns: 1fr;
             gap: 1rem;
         }
-    } */
+    }

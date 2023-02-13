@@ -15,6 +15,8 @@
             transparent,
             var(--color-primary),
             transparent);
+    display: grid;
+    place-items: center;
 
 }
 
@@ -34,14 +36,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    margin-left: -9rem;
 }
 
 .about_card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: .9rem;
+    padding: 2rem;
     text-align: center;
     transition: var(--transistion);
 }
@@ -53,22 +54,23 @@
 }
 
 .about_icons {
-    color: var(--color-primary);
+    color: var(--color-primary-variant);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .about_card h5 {
-    font-size: 0.99;
+    font-size: 0.95;
 }
 
 .about_card small {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: var(--color-light)
 }
 
 .about_content p {
-    margin: 2rem -5rem 2.6rem -9rem;
+    /* margin: 2rem -5rem 2.6rem -9rem; */
+    margin: 2rem 0 2.6rem;
     color: var(--color-light);
 }
 
@@ -76,23 +78,33 @@
 /* tablets */
 
 @media screen and (max-width: 1024px) {
-    .about_me-image {
-        width: 330px;
-        transition: none;
-        transform: none;
-    }
-
-    .about_content p {
-        margin: 3rem -3.9rem 2.6rem -27rem;
-        color: var(--color-light);
-        font-size: 1.9rem;
-
+    .about_conatiner {
+        grid-template-columns: 1fr;
+        gap: 0;
     }
 
     .about_me {
-        background: none;
+        width: 50%;
+        margin: 2rem auto 4rem;
 
     }
+
+    .about_content p {
+        /* margin: 3rem -3.9rem 2.6rem -27rem;
+        color: var(--color-light);
+        font-size: 1.9rem; */
+        margin: 1rem 0 1.5rem;
+
+    }
+
+    /* 
+    .about_me-image {
+        width: 50%;
+        transition: none;
+        transform: none;
+    } */
+
+
 
     .about_cards {
         display: flex;
@@ -113,7 +125,7 @@
 /* ---------phones---------- */
 
 @media screen and (max-width: 600px) {
-    .about_me-image {
+    /* .about_me-image {
         display: none;
     }
 
@@ -136,9 +148,9 @@
         margin: 3rem -3rem 2.2rem -12rem;
         color: var(--color-light);
         font-size: 1.5rem;
-    }
+    } */
 
-    /* .about_me {
+    .about_me {
         width: 65%;
         margin: 0 auto 3rem;
     }
@@ -154,7 +166,7 @@
 
     .about_content p {
         margin: 1.5rem 0;
-    } */
+    }
 
 
 }
