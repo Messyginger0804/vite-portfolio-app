@@ -7,7 +7,8 @@ import { BsTwitter } from 'react-icons/bs'
 const Footer = () => {
     return (
         <footer>
-            <a href='#' className='footer_logo'>JC WEBDEV</a>
+            <a href='#' className='footer_logo'>JC Ashley</a>
+            <h5>Fullstack Developer</h5>
 
             <ul className='permalinks'>
                 <li> <a href='#'>Home</a> </li>

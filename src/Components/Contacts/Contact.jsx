@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
 import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -26,13 +27,13 @@ const Contact = () => {
                         <AiOutlineMail className='contact_option-icon' />
                         <h4>Email</h4>
                         <h5>j.c.ashley4363@gmail.com</h5>
-                        <a href='mailto:j.c.ashley4363@gmail.com' target='_blank'>Send A Message</a>
+                        <a className='send-message' href='mailto:j.c.ashley4363@gmail.com' target='_blank'>Send A Message</a>
                     </article>
                     <article className='contact_option'>
                         <AiOutlineWhatsApp className='contact_option-icon' />
                         <h4>WhatsApp</h4>
                         <h5>Shoot Me a Message</h5>
-                        <a href='https://api.whatsapp.com/send?phone=12149493126' target='_blank'>Send A Message</a>
+                        <a className='send-message' href='https://api.whatsapp.com/send?phone=12149493126' target='_blank'>Send A Message</a>
                     </article>
 
                 </div>

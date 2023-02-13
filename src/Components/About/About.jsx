@@ -3,7 +3,7 @@ import './About.css'
 import photo from '../../assets/coding.jpg'
 import { BsAward } from 'react-icons/bs'
 import { AiOutlineUsergroupAdd } from 'react-icons/ai'
-import { AiFillFolderOpen } from 'react-icons/ai'
+import { GiDiploma } from 'react-icons/gi'
 
 const About = () => {
     return (
@@ -22,26 +22,29 @@ const About = () => {
                     <div className="about_cards">
 
                         <article className='about_card'>
+                            <AiOutlineUsergroupAdd className='about_icon' />
+                            <h5>Family Man</h5>
+                            <small>Loving Husband & Father of 2</small>
+                        </article>
+
+                        <article className='about_card'>
                             <BsAward className='about_icon' />
                             <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <small>15+ years Employee Management Experience</small>
                         </article>
 
                         <article className='about_card'>
-                            <AiOutlineUsergroupAdd className='about_icon' />
-                            <h5>Clients</h5>
-                            <small>300 Worldwide</small>
-                        </article>
-
-                        <article className='about_card'>
-                            <AiFillFolderOpen className='about_icon' />
-                            <h5>Projects</h5>
-                            <small>List of Projects</small>
+                            <GiDiploma
+                                className='about_icon' />
+                            <h5>Fast & Studious Learner</h5>
+                            <small>Ambitiously Learning New Tech & Sharpening My Skills</small>
                         </article>
                     </div>
 
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In aspernatur necessitatibus architecto iusto reprehenderit nam laboriosam, expedita ullam minus eaque. Dignissimos impedit nisi accusamus possimus qui adipisci ducimus molestias porro.
+                        I'm a trained Software Engineer that embraces values of dedication and commitment. I always fine ways to bring fun and buoyancy into stressful situations.
+
+                        I aggressively and effectively seek out ways to improve both myself and those around me. My desire for consuming documentation and acquiring new skills is quenchless. Through my experience, the completed project doesn't bring nearly as much satisfaction as the process itself. I am eager to continue gaining knowledge and utilizing new skills in the tech field.
                     </p>
 
                     <a href='#contact' className='btn btn-primary'>Let's Talk</a>

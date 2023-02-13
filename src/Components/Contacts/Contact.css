@@ -1,5 +1,6 @@
 .contact_container {
-    padding-left: 4rem;
+    padding-left: 10rem;
+    padding-right: 7rem;
     width: 90%;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -9,7 +10,7 @@
 .contact_options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 5rem;
 }
 
 .contact_option {
@@ -22,7 +23,9 @@
 
 .contact_option:hover {
     background: transparent;
+    background: var(--color-primary);
     border-color: var(--color-primary-light);
+    border-color: black;
 }
 
 .contact_option-icon {
@@ -34,6 +37,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+}
+
+.send-message {
+    color: whitesmoke
 }
 
 /* =================== FORM ======================== */
