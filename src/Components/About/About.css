@@ -1,22 +1,22 @@
-.about_container {
+.container .about_container {
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
-
 }
 
 .about_me {
-    width: 100%;
-    /* height: 55%; */
-    aspect-ratio: 1/1;
+    /* width: 100;
+    height: 55%; */
+    /* aspect-ratio: 1/1; */
     margin-left: 2rem;
     border-radius: 2rem;
-    background: linear-gradient(45deg,
+    background: linear-gradient(40deg,
             transparent,
             var(--color-primary),
             transparent);
     display: grid;
     place-items: center;
+    background: var(--color-primary);
 }
 
 .about_me-image {
@@ -24,14 +24,19 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transistion);
+    /* margin-bottom: 5rem; */
+
 }
 
 .about_me-image:hover {
     transform: rotate(0deg);
-    /* transition: 2000ms; */
+    transition: 2000ms;
 }
 
 .about_cards {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
@@ -54,7 +59,7 @@
 
 .about_icon {
     color: var(--color-primary-variant);
-    font-size: 2rem;
+    font-size: 3.7rem;
     margin-bottom: 1rem;
 }
 
@@ -96,15 +101,16 @@
     .about_cards {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap-reverse;
         gap: 1.5rem;
-        margin-left: -6.7rem;
         margin-bottom: 1rem;
     }
 
     .about_card {
         display: flex;
-        justify-content: center;
-        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+        gap: 1.5rem;
+
     }
 
 }
@@ -112,15 +118,17 @@
 /* ---------phones---------- */
 
 @media screen and (max-width: 600px) {
-    .about_me {
-        width: 65%;
-        margin: 0 auto 3rem;
+
+    .about_container {
+        display: flex;
+        justify-content: center;
     }
 
-    .about_cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+    .about_me {
+        width: 65%;
+        margin: 5 auto 3rem;
     }
+
 
     .about_content {
         text-align: center;

@@ -34,6 +34,8 @@ html {
 }
 
 body {
+  margin-left: 12rem;
+  margin-right: 12rem;
   font-family: 'Dosis', sans-serif;
   background-color: #1f1f38;
   color: var(--color-white);
@@ -151,6 +153,11 @@ img {
 /* ---------phones---------- */
 
 @media screen and (max-width: 600px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .conatiner {
     width: var(--container-width-sm);
   }

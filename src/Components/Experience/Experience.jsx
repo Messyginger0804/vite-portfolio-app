@@ -13,38 +13,38 @@ const Experience = () => {
             <h5>The Tools I Use</h5>
             <h2>My Current Tech Stack</h2>
 
-            <div className='conatiner experience_container'>
+            <div className='experience_container'>
                 <div className='frontend'>
-                    <h3>Frontend Development</h3>
+                    <h3 className='front'>Frontend Development</h3>
                     <div className='experience_content'>
                         <article className='experience_details'>
-                            <h4> <AiFillHtml5 />HTML</h4>
+                            <h4 className='tech'> <AiFillHtml5 />HTML</h4>
                         </article>
                         <article className='experience_details'>
-                            <h4> <DiCss3 />CSS</h4>
+                            <h4 className='tech'> <DiCss3 />CSS</h4>
                         </article>
                         <article className='experience_details'>
-                            <h4><DiJavascript />JAVASCRIPT</h4>
+                            <h4 className='tech'><DiJavascript />JAVASCRIPT</h4>
                         </article>
                         <article className='experience_details'>
-                            <h4> <FaBootstrap />BOOTSTRAP</h4>
+                            <h4 className='tech'> <FaBootstrap />BOOTSTRAP</h4>
                         </article>
                         <article className='experience_details'>
-                            <h4> <FaReact />REACT</h4>
+                            <h4 className='tech'> <FaReact />REACT</h4>
                         </article>
                     </div>
                 </div>
                 <div className='backend'>
-                    <h3>Backend Development</h3>
+                    <h3 className='back'>Backend Development</h3>
                     <div className='experience_content'>
                         <article className='experience_details'>
-                            <h4> <FaNodeJs />NODE.JS</h4>
+                            <h4 className='tech'> <FaNodeJs />NODE.JS</h4>
                         </article>
                         <article className='experience_details'>
-                            <h4> <SiPostgresql />POSTGRESQL</h4>
+                            <h4 className='tech'> <SiPostgresql />POSTGRESQL</h4>
                         </article>
                         <article className='experience_details'>
-                            <h4> <SiExpress />EXPRESS</h4>
+                            <h4 className='tech'> <SiExpress />EXPRESS</h4>
                         </article>
                     </div>
 
