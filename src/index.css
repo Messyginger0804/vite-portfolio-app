@@ -38,7 +38,7 @@ footer {
   margin-right: 0;
 }
 
-body {
+body:not(footer) {
   margin-left: 12rem;
   margin-right: 12rem;
   font-family: 'Dosis', sans-serif;
