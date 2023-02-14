@@ -35,12 +35,11 @@ html {
 
 body {
   font-family: 'Dosis', sans-serif;
-  font-family: 'Itim', cursive;
-
-  background-color: var(--color-bg);
+  background-color: #1f1f38;
   color: var(--color-white);
+
   line-height: 1.7;
-  /* background-image: url(../src/assets/coding-background.jpg); */
+  /* background-image: url(../src/assets/coding-background.jpg); ---------maybe find a good image to use*/
 }
 
 /************* General Styles *************/
@@ -48,11 +47,11 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
-  padding-right: 5rem;
-  display: grid;
+  /* padding-right: 5rem;
+  display: grid; */
   /* grid-template-columns: 1fr 200px; */
-  grid-template-columns: 50% 35%;
-  gap: 15%;
+  /* grid-template-columns: 50% 35%;
+  gap: 15%; */
 
 
 }
@@ -146,7 +145,6 @@ img {
 
   section {
     margin-top: 6rem;
-    /* margin-left: -6rem; */
   }
 }
 

@@ -29,7 +29,6 @@ header {
     gap: 0.85rem;
     position: absolute;
     left: 0;
-    margin-left: 5rem;
     bottom: 3rem;
 }
 
@@ -49,10 +48,10 @@ header {
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem, 1.5rem, 1.5rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
 /* ++++++++++SCROLL DOWN================ */
@@ -72,7 +71,6 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
-        /* padding-left: 10rem; */
     }
 }
 
@@ -81,7 +79,6 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
-        /* padding-left: .5rem; */
     }
 
     .header_socials,
