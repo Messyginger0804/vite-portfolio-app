@@ -6,7 +6,6 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { SiPostgresql, SiExpress } from 'react-icons/si';
 
 
-
 const Experience = () => {
     return (
         <section id='experience'>
@@ -50,9 +49,6 @@ const Experience = () => {
 
                 </div>
             </div>
-
-
-
 
         </section >
     )
