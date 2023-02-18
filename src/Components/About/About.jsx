@@ -24,7 +24,7 @@ const About = () => {
                         <article className='about_card'>
                             <AiOutlineUsergroupAdd className='about_icon' />
                             <h5>Family Man</h5>
-                            <small>Loving Husband & Father of 2</small>
+                            <small>Loving Husband and Father of Two</small>
                         </article>
 
                         <article className='about_card'>

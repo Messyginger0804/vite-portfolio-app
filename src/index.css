@@ -22,7 +22,7 @@
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --conatiner-width-sm: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -46,7 +46,8 @@ body:not(footer) {
   color: var(--color-white);
 
   line-height: 1.7;
-  /* background-image: url(../src/assets/coding-background.jpg); ---------maybe find a good image to use*/
+  /* background-image: url(../src/assets/design.jpg); */
+  /* opacity: 50%; */
 }
 
 
