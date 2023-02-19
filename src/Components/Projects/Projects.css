@@ -11,11 +11,28 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    text-align: center;
 }
 
-.portfolio_item:hover {
-    border-color: var(--color-primary-variant);
+.not-ready {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    cursor: not-allowed;
+}
+
+.portfolio_items:hover {
+    /* border-color: var(--color-primary-variant);
+    background: transparent; */
     background: transparent;
+    border-color: lightskyblue;
+    transition: 1000ms;
+    transform: scale(1.1);
 }
 
 .portfolio_item-image {

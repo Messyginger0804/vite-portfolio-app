@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import photo from '../../assets/coding.jpg'
+import photo from '../../assets/collage.jpg'
 import { BsAward } from 'react-icons/bs'
 import { AiOutlineUsergroupAdd } from 'react-icons/ai'
 import { GiDiploma } from 'react-icons/gi'
@@ -24,7 +24,7 @@ const About = () => {
                         <article className='about_card'>
                             <AiOutlineUsergroupAdd className='about_icon' />
                             <h5>Family Man</h5>
-                            <small>Loving Husband and Father of Two</small>
+                            <small>Loving Husband and Father of Three</small>
                         </article>
 
                         <article className='about_card'>
@@ -42,7 +42,7 @@ const About = () => {
                     </div>
 
                     <p>
-                        I'm a trained Software Engineer that embraces values of dedication and commitment. I always fine ways to bring fun and buoyancy into stressful situations.
+                        I'm a trained Software Engineer and father of 3 that embraces values of dedication and commitment. I always fine ways to bring fun and buoyancy into stressful situations.
 
                         I aggressively and effectively seek out ways to improve both myself and those around me. My desire for consuming documentation and acquiring new skills is quenchless. Through my experience, the completed project doesn't bring nearly as much satisfaction as the process itself. I am eager to continue gaining knowledge and utilizing new skills in the tech field.
                     </p>
